@@ -234,7 +234,7 @@ def winner_notification(winner, winning_pos):
 pygame.init()
 
 # Set up the screen
-SQUARESIZE = 100
+SQUARESIZE = 80
 width = COLUMN_COUNT * SQUARESIZE
 height = (ROW_COUNT + 1) * SQUARESIZE
 size = (width, height)
